@@ -1,0 +1,128 @@
+.icon-action{
+	position: absolute;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.remove {
+	top: 50%;
+	right: 5px;
+	color: #750000;
+	transform: translateY(-50%);
+}
+.remove:hover {
+   color: #ff0000;
+}
+.st-hover .remove{
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	transition: all 0.3s  ease-in-out;
+}
+.st-hover:hover .remove{
+	opacity: 1;
+	visibility: visible;
+	overflow: visible;
+}
+.form-control.price{    
+	width: 96%;
+}
+.addRow {
+    background: #ececec;
+    text-align: right;
+}
+.addRow-btn{
+    margin: 5px 10px;
+    font-size:14px;
+}
+.st-hover:not(first-child){
+	margin-top: 15px;
+}
+.notify ul {
+    list-style: none;
+    padding: 15px;
+}
+.submit-btn{
+	text-align: center;
+	position: relative;
+}
+.custom-select {
+    width: 80%;
+}
+.addNewStrore {
+    width: calc(100% - 80%);
+    text-align: center;
+}
+.addStore.btn {
+    background: #f3f3f3;
+    transition: all 0.3s ease-in-out;
+}
+.addStore.btn i{
+	margin-right: 5px;
+}
+.addStore:hover {
+
+	-webkit-box-shadow: 1px 0px 8px 0px rgba(117,117,117,0.52);
+	box-shadow: 1px 0px 8px 0px rgba(117,117,117,0.52)
+}
+.spinner-border{
+	width: 1rem;
+	height: 1rem;
+}
+.spinner-border{
+	overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	position: absolute;
+    bottom: 7px;
+}
+.submit {
+	position: relative;
+}
+.submit .spinner-border{
+    bottom: 10px;
+    right: -24px;
+    color: #a7a7a7;
+}
+.spinner-border.loading{
+	overflow: visible;
+	opacity: 1;
+	visibility: visible;
+}
+.save-template {
+    width: 150px;
+    position: absolute;
+    left: 0;
+}
+.loadSave {
+    position: absolute;
+    right: 0;
+}	
+.modal-header .close.closeForm {
+    position: absolute;
+    padding: 5px;
+    right: 25px;
+}
+button.close.closeForm:focus{
+	outline: none
+}
+.list-key{
+	overflow: auto;
+	height: 50vh;
+}
+.listIteam {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 1px dotted #ccc;
+    transition: all 0.2s ease-in-out;
+}
+.listIteam:nth-child(even){
+	background: #8080800a;
+}
+.listIteam:hover {
+    background: #598ad41c;
+}
+.loadSave:hover,
+.clearHistory:hover{
+	color: #007bff;
+}
